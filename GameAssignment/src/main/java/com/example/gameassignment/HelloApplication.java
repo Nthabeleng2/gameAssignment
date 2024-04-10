@@ -157,7 +157,7 @@ public class HelloApplication extends Application {
         questionLabel.setText("You have obtained: " + total + "/" + allQuestions.length);
         box.getChildren().clear();
         mediaBox.getChildren().clear();
-        endMediaView.setFitWidth(400);
+        endMediaView.setFitWidth(450);
         endMediaView.setFitHeight(400);
         endMediaView.setPreserveRatio(true);
         mediaBox.getChildren().add(endMediaView);
